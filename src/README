@@ -1,0 +1,8 @@
+install on Ubuntu 17.04:
+
+sudo apt install cmake make g++ libx11-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev libxrandr-dev libxext-dev libxi-dev xorg-dev
+cd cube/build
+cmake ..
+make all
+cd ../cube
+./cube
